@@ -1,4 +1,4 @@
-# ConvaSL â€” downloads
+# ConvaSL downloads
 
 Auto-rigging, rig conversion and animation retargeting for **Second Life**.
 Windows 10/11, 64-bit, no installation needed.
