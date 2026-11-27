@@ -8,7 +8,7 @@ private repository, so nothing here is source â€” just the signed release f
 
 ## Download
 
-**[Latest release â†’](https://github.com/Willie2020/ConvaSL-releases/releases/latest)**
+**[Latest release](https://github.com/Willie2020/ConvaSL-releases/releases/latest)**
 
 1. Open the newest release and download **`ConvaSL-<version>-win64.zip`**.
 2. Right-click the zip â€º *Extract Allâ€¦* (don't run the exe from inside the zip).
