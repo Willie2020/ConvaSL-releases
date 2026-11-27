@@ -10,16 +10,21 @@ private repository, so nothing here is source â€” just the signed release f
 |---|---|
 | <img src="screenshots/01-markers.png" width="420" alt="ConvaSL with a human mesh loaded and joint markers placed on the chin, shoulders, elbows, wrists, groin, knees, ankles and toes"> | <img src="screenshots/02-rigged.png" width="420" alt="The Second Life skeleton drawn inside the rigged mesh"> |
 
-Then Second Life's own uploader, with the settings ConvaSL asks for:
+Then the shape import and Second Life's own uploader, with the settings ConvaSL asks for:
 
 <img src="screenshots/03-second-life-upload.png" width="520" alt="Second Life Upload Model dialog, Rigging tab, Include skin weight and Include joint positions ticked">
 
-> [!WARNING]
-> **Adult / teen standard avatars are still in development.** That export type (uploaded
-> *without* joint positions) currently has scaling problems â€” the mesh can come out too
-> small, too large or offset in world. **Animesh** and **Avatar â€” child, baby or custom
-> scale** are tested and work. Until it is fixed, use one of those and keep
-> **Include joint positions** ticked at upload.
+> [!IMPORTANT]
+> **Using the default *Avatar â€” adult / teen standard* export? Follow the order:**
+> **1.** *Orientation & size* â†’ **Fit height** before rigging. **2.** Auto-rig.
+> **3.** Export as *Avatar â€” adult / teen standard* and press **Shape .xmlâ€¦** to save the `<name>_shape.xml`
+> next to the `.dae`. **4.** In Firestorm: wear a modifiable shape, **Edit Shape â†’ Importâ€¦** that
+> `_shape.xml`, **Save**, then upload the `.dae` with **Include skin weight** ticked and
+> **Include joint positions OFF**.
+> With those steps it scales correctly. Skip the fit-height or the shape import and the mesh lands too
+> big, too small or offset. **Animesh** and **child / baby / custom scale** need no shape â€” upload those
+> with **Include skin weight** *and* **Include joint positions** ticked (plus *Lock scale if joint
+> position defined* in the uploader).
 
 ## Download
 
