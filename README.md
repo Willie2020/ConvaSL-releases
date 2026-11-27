@@ -11,10 +11,10 @@ private repository, so nothing here is source just the signed release files.
 **[Latest release](https://github.com/Willie2020/ConvaSL-releases/releases/latest)**
 
 1. Open the newest release and download **`ConvaSL-<version>-win64.zip`**.
-2. Right-click the zip â€º *Extract Allâ€¦* (don't run the exe from inside the zip).
+2. Right-click the zip and select *Extract All* (don't run the exe from inside the zip).
 3. Start **`ConvaSL.exe`**. On older PCs, or if you only see a black window,
    start **`ConvaSL_safe_mode.bat`** instead.
-4. If Windows shows *"Windows protected your PC"*, click **More info â€º Run anyway**
+4. If Windows shows *"Windows protected your PC"*, click **More info Run anyway**
    (the build is signed with a self-signed development certificate, so
    SmartScreen still reports an unknown publisher until a commercial
    certificate is used).
