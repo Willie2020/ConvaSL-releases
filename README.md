@@ -4,7 +4,7 @@ Auto-rigging, rig conversion and animation retargeting for **Second Life**.
 Windows 10/11, 64-bit, no installation needed.
 
 This repository only holds the published builds. The source code lives in a
-private repository, so nothing here is source â€” just the signed release files.
+private repository, so nothing here is source just the signed release files.
 
 ## Download
 
